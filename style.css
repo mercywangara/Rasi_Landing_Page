@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: xx-large;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+@media (min-width: 600px) {
+    .container {
+        display: flex; 
+    }
+    .box {
+        width: 50%; 
+    }
+}
+@media (max-width: 599px) {
+    .box {
+        width: 100%; 
+    }
+}
+#Rasi_prints{
+    color: rgb(116, 204, 116);
+}
+body p{
+    text-align: center;
+}
+#about{
+    color: rgb(116, 204, 116);
+}
+#know_more{
+    color: rgb(116, 204, 116);
+    border-radius: 3%;
+}
+.offers{
+    display: flex;
+}
+.container h1{
+    text-align: center;
+}
+.container span{
+    text-align: center;
+}
+.clients{
+    display: flex;
+}
+.contact_us{
+    display: flex;
+}
+footer span{
+    text-align: center;
+}
+.map{
+    position: relative;
+}
+.Contact_Us{
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 3%;
+    background-color: white;
+    color: black;
+    width: 20%;
+    height: 20%;
+}
+.fa-phone{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 3%;
+}
+.introductory_image{
+    position: relative;
+}
+section div p{
+    font-size: 50%;
+    text-align: center;
+}
+section div button{
+    border-radius: 3%;
+    background-color: rgb(244, 227, 227);
+    color: white;
+}
+section div span{
+    text-align: center;
+}
+.introductory_comments{
+    bottom: 350px;
+    left: 40%;
+    font-size: 10px;
+    /* color: white; */
+}
+.know_more{
+    text-align: center;
+}
