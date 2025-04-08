@@ -1,10 +1,11 @@
 body {
     font-family: Arial, sans-serif;
     font-size: xx-large;
+    overflow-x: hidden
 }
 img{
-    max-width: 100%;
-    height: auto;
+    /* max-width: 100%;
+    height: auto; */
 }
 @media (min-width: 600px) {
     .container {
@@ -20,7 +21,11 @@ img{
     }
 }
 #Rasi_prints{
-    color: rgb(116, 204, 116);
+    color: white;
+    width: 100%;
+    height: 45px;
+    background-color: rgb(177, 231, 177);
+    font-size: 20px;
 }
 body p{
     text-align: center;
@@ -29,11 +34,14 @@ body p{
     color: rgb(116, 204, 116);
 }
 #know_more{
-    color: rgb(116, 204, 116);
-    border-radius: 3%;
+    background-color: rgb(116, 204, 116);
+    border-radius: 120px;
+    width: 170px;
+    height: 60px;
 }
 .offers{
     display: flex;
+    gap: 15%;
 }
 .container h1{
     text-align: center;
@@ -52,6 +60,8 @@ footer span{
 }
 .map{
     position: relative;
+    width: 1000px;
+    height: 500px;
 }
 .Contact_Us{
     position: absolute;
@@ -59,8 +69,8 @@ footer span{
     border-radius: 3%;
     background-color: white;
     color: black;
-    width: 20%;
-    height: 20%;
+    width: 10%;
+    left: 10%;
 }
 .fa-phone{
     border: 1px solid black;
@@ -70,6 +80,8 @@ footer span{
 }
 .introductory_image{
     position: relative;
+    width: 100%;
+    height: 900px;
 }
 section div p{
     font-size: 50%;
@@ -77,18 +89,76 @@ section div p{
 }
 section div button{
     border-radius: 3%;
-    background-color: rgb(244, 227, 227);
+    background-color: rgb(79, 76, 76);
     color: white;
+    /* width: 100px;
+    height: 40px; */
+    width: 170px;
+    height: 60px;
+    border-radius: 120px;
 }
 section div span{
     text-align: center;
 }
-.introductory_comments{
+/*.introductory_comments{
     bottom: 350px;
     left: 40%;
     font-size: 10px;
-    /* color: white; */
-}
+    color: white; 
+}*/
 .know_more{
     text-align: center;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+footer img{
+    height: 300px;
+    border-radius: 10px;
+}
+.introductory_comments{
+    position: absolute;
+    bottom: 300px;
+    left: 25%;
+    color: white;
+}
+#timeless_printing{
+    width: 80%;
+    height: 80%;
+}
+.offers img{
+    width: 10%;
+    height: 10%;
+}
+section h1{
+    text-align: center;
+}
+.clients img{
+    width: 200px;
+    height: 100px;
+}
+.clients{
+    display: flex;
+    gap: 5%;
+}
+span{
+    font-size: large;
+    text-align: center;
+}
+.client_praise{
+    height: 100%;
+    border-radius: 20px;
+}
+.introductory_comments p{
+    font-size: 70px;
+    text-align: center;
+}
+.introductory_comments span{
+    font-size: 30px;
+    text-align: center;
+}
+.introductory_comments button{
+    font-size: 25px;
+    align-self: center;
 }
